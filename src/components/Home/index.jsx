@@ -1,11 +1,13 @@
-import Banner from "./banner";
-import Article from "./article";
+import Banner from "./banner/banner";
+import MainView from "./mainview/mainView";
 
 const Home = () => {
   return (
-    <div>
-      <Banner></Banner>
-      <Article></Article>
+    <div className="home-page">
+      <Banner />
+      <div className="container-page">
+        <MainView></MainView>
+      </div>
     </div>
   );
 };

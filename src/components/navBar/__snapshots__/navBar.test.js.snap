@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<styled.nav>
+  <styled.ul>
+    <styled.li>
+      <Styled(Link)
+        to="/"
+      >
+        conduit
+      </Styled(Link)>
+    </styled.li>
+    <styled.ul>
+      <styled.li>
+        <Styled(NavLink)
+          to="/"
+        >
+          Home
+        </Styled(NavLink)>
+      </styled.li>
+      <styled.li>
+        <Styled(NavLink)
+          to="/login"
+        >
+          Sign in
+        </Styled(NavLink)>
+      </styled.li>
+      <styled.li>
+        <Styled(NavLink)
+          to="/register"
+        >
+          Sign up
+        </Styled(NavLink)>
+      </styled.li>
+    </styled.ul>
+  </styled.ul>
+</styled.nav>
+`;

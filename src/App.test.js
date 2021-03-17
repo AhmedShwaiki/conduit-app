@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import toJson from "enzyme-to-json";
+import { shallow } from "enzyme";
+import { React } from "react";
+import App from "./App";
+import NavBar from "./components/navBar/navBar";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+it("renders without crashing", () => {
+  shallow(<App />);
+});
+
+it("renders the NavBar", () => {
+  const wrapper = shallow(<App />);
+  const navBar = <NavBar />;
+  expect(wrapper.contains(navBar)).toEqual(true);
 });

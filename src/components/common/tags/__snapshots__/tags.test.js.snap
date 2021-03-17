@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tags/> tags renders correctly 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Tags
+      items={
+        Array [
+          "tag1",
+        ]
+      }
+    >
+      <styled.div>
+        <div
+          className="sc-bdfBwQ hwgBUR"
+        >
+          <p>
+            Popular Tags
+          </p>
+          <styled.div>
+            <div
+              className="sc-gsTCUz yshIc"
+            >
+              <Styled(Link)
+                item="tag1"
+                key="tag1"
+                onClick={[Function]}
+                to="#"
+              >
+                <Link
+                  className="sc-dlfnbm kFiSyS"
+                  item="tag1"
+                  onClick={[Function]}
+                  to="#"
+                >
+                  <LinkAnchor
+                    className="sc-dlfnbm kFiSyS"
+                    href="/"
+                    item="tag1"
+                    navigate={[Function]}
+                    onClick={[Function]}
+                  >
+                    <a
+                      className="sc-dlfnbm kFiSyS"
+                      href="/"
+                      item="tag1"
+                      onClick={[Function]}
+                    >
+                      tag1
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </Styled(Link)>
+            </div>
+          </styled.div>
+        </div>
+      </styled.div>
+    </Tags>
+  </Router>
+</BrowserRouter>
+`;

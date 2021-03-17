@@ -1,16 +1,15 @@
 import { Redirect, Route, Switch } from "react-router-dom";
-import NavBar from "./components/navBar";
+import NavBar from "./components/navBar/navBar";
 import Home from "./components/Home";
-import Login from "./components/login";
-import Register from "./components/register";
-import NotFound from "./components/notFound";
-import "./App.css";
+import Login from "./components/login/login";
+import Register from "./components/register/register";
+import NotFound from "./components/notFoundPage/notFound";
 import "./index.css";
 function App() {
   return (
     <div>
       <NavBar />
-      <div className="container">
+      <div>
         <Switch>
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />

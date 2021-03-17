@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <MainView>
+      <styled.div>
+        <div
+          className="sc-bkzZxe hPUSHV"
+        >
+          <styled.div>
+            <div
+              className="sc-idOhPF cWvArO"
+            >
+              <TagsNav
+                items={Array []}
+                onItemSelect={[Function]}
+              >
+                <styled.ul>
+                  <ul
+                    className="sc-dQppl dAJftI"
+                  >
+                    <li>
+                      <Styled(Link)
+                        onClick={[Function]}
+                        to="#"
+                      >
+                        <Link
+                          className="sc-bqyKva blGNXn"
+                          onClick={[Function]}
+                          to="#"
+                        >
+                          <LinkAnchor
+                            className="sc-bqyKva blGNXn"
+                            href="/"
+                            navigate={[Function]}
+                            onClick={[Function]}
+                          >
+                            <a
+                              className="sc-bqyKva blGNXn"
+                              href="/"
+                              onClick={[Function]}
+                            >
+                              Global Feed
+                            </a>
+                          </LinkAnchor>
+                        </Link>
+                      </Styled(Link)>
+                    </li>
+                  </ul>
+                </styled.ul>
+              </TagsNav>
+              <styled.div
+                className="loading"
+              >
+                <div
+                  className="sc-hHftDr hyumWl loading"
+                >
+                  Loading...
+                </div>
+              </styled.div>
+            </div>
+          </styled.div>
+          <styled.div>
+            <div
+              className="sc-dIUggk knWfab"
+            >
+              <Tags
+                items={Array []}
+                loadingTags={true}
+                onItemSelect={[Function]}
+              >
+                <styled.div>
+                  <div
+                    className="sc-hBEYos eJLPQL"
+                  >
+                    <p>
+                      Popular Tags
+                    </p>
+                    <p>
+                      Loading Tags..
+                    </p>
+                  </div>
+                </styled.div>
+              </Tags>
+            </div>
+          </styled.div>
+        </div>
+      </styled.div>
+    </MainView>
+  </Router>
+</BrowserRouter>
+`;
